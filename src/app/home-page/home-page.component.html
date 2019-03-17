@@ -1,3 +1,122 @@
-<p>
-  home-page works!
-</p>
+<div id="hero">
+  <div id="video-viewport">
+    <video id="hero-video" width="1280" height="720" autoplay muted playsinline
+            poster="{{videos[activeVideoId].poster}}"
+            [src]="videos[activeVideoId].src"
+            [ngClass]="{'animate-hide': hideVideo }"
+            >
+      Your browser does not support the video tag.
+    </video>
+    
+  </div>
+
+  <div class="slideShow">
+      <img [src]="v.image" class="img"
+        *ngFor="let v of videos; let i = index" [attr.data-index]="i"
+        [ngClass]="{'active': activeVideoId==i}"/>
+
+      
+  </div>
+
+  <!--<div class="video-info" [ngClass]="{'animate-hide': hideVideo }">{{videoTitle}}</div>-->
+</div>
+
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12" >
+      <a routerLink="/postgrowth" class="promo-link">See our new Post Growth Video<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+     <h1>Our World</h1>
+      <p>
+        Our world is in crisis. It’s political, economic, environmental, and spiritual.
+      </p>
+
+      <p>
+        Everyone is asking why but few of us are satisfied with the answers our politicians or much of the mainstream media are giving us.
+      </p>
+
+      <p>
+        The Rules works to make sense of these crises and contribute to the transition toward a more just and thriving world. We connect dots to show how seemingly separate issues are interconnected. We reveal and critique the rules of the current system, and shine a light on beautiful alternatives that work for all and honour Mother Earth. 
+      </p>
+
+    </div>
+    <div class="col-md-6">
+      <app-video-overlay [ytid]="'ACke28f3swE'"></app-video-overlay>
+    </div>
+  </div>
+  <div class="row">
+    
+    <!-- Standing Rock Portrait-->
+    <div class="col-md-3 col-sm-6">
+      <img src="./assets/images/standing-rock.png" alt="Standing Rock" height="100%" width="100%">
+      <span class="image-caption">Portrait inspired by Standing Rock</span>
+    </div>
+
+    <div class="col-md-9 col-sm-6">
+      <p style="text-align: center; font-size: 1.5em;">
+        As writer Arundhati Roy says: “Another world is not only possible, she is on her way. On a quiet day, I can hear her breathing.” 
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<app-banner [imgSrc]="'assets/images/join-the-movement.jpg'" [title]="'Join the Collective'"></app-banner>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+
+      <div class="join-bottom">
+        <p>
+          Across our various social networks you’ll find conversations and collaborations between individuals and organisations who share a belief that the capitalist system needs to be transcended. Whether on Facebook, YouTube, Instagram or Twitter, you’ll find space held for debate, inspiration and collaboration. Here are the various ways you can become a part of the TR community:
+        </p>
+
+        <ul>
+          <li>
+            Sign up for TR emails to learn of opportunities to collaborate and to receive remixable content: <a href="http://eepurl.com/VdmKr" target="_blank">eepurl.com/VdmKr</a>
+          </li>
+
+          <li>
+            Like us on Facebook: <a href="https://www.facebook.com/therules.org" target="_blank">www.facebook.com/therules.org</a>
+          </li>
+
+          <li>
+            Follow us on Twitter: <a href="https://twitter.com/TheRulesOrg" target="_blank">@TheRulesOrg</a>
+          </li>
+  
+          <li>
+            Follow us on Instagram: <a href="https://www.instagram.com/therulesorg/" target="_blank">@therulesorg</a>
+          </li>
+
+          <li>
+            Follow us on YouTube: <a href="https://www.youtube.com/therulesorg" target="_blank">www.youtube.com/therulesorg</a>
+          </li>
+
+          <li>
+            Follow us on Telegram: <a href="https://t.me/therules" target="_blank">t.me/therules</a>
+          </li>
+
+        </ul>
+      </div>
+
+      <br>
+      <p>
+        If you still have questions about The Rules, you may be able to <a routerLink="/faq">find your answers here</a>. If you can’t find what you’re looking for, you can email <a href="mailto:contact@therules.org" target="_blank">contact@therules.org</a>.
+      </p>
+
+    </div>
+
+    <!-- NEWSLETTER SIGNUP FORM -->
+    <div class="col-md-4">
+      <app-newsletter-signup></app-newsletter-signup>
+    </div>
+
+  </div>
+</div>
