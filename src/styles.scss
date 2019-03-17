@@ -1,1 +1,143 @@
+/*GLOBAL STYLES HERE*/
 /* You can add global styles to this file, and also import other style files */
+/* IMPORTS */
+@import 'app/css/colors';
+@import 'app/css/fonts';
+@import 'app/css/parallax';
+
+//SHARE BUTTONS styles
+
+@import "app/css/font-awesome-4.7.0/css/font-awesome.css";
+//@import "~@fortawesome/fontawesome-free-webfonts/css/fa-brands.css";
+//@import "~@fortawesome/fontawesome-free-webfonts/css/fa-solid.css";
+//@import "~@fortawesome/fontawesome-free-webfonts/css/fontawesome.css";
+//@import '~@ngx-share/button/styles/share-buttons';
+//@import '~@ngx-share/button/themes/default/default-theme';
+//@import '~@ngx-share/button/styles/themes/circles/circles-light-theme';
+//@import '~@ngx-share/button/themes/circles/circles-dark-theme';
+
+//GLOBAL STYLES
+body{
+  background-color: $bgColor;
+  color: $textColor;
+  font-family: fira-medium, arial, sans-serif;
+  font-size: 18px;
+}
+
+//TEXT STYLES
+h1,h2,h3,h4{
+  color: white;
+  font-family: fira-bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: blackout-midnight;
+  color: $accentColor1;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  padding-top: 0;
+  font-family: blackout-midnight;
+  color: $accentColor1;
+}
+
+h4{
+  color: white;
+  font-family: fira-book;
+}
+
+p{
+  font-size: 18px;
+  margin-bottom: 1em;
+  strong{
+    font-family: fira-book;
+    color: white;
+    font-style: italic;
+  }
+}
+
+strong{
+  font-family: fira-bold;
+  color: white;
+}
+
+li{
+  margin: 10px 0px;
+}
+
+
+//LINKS
+a{
+  color: $textColor;
+  text-decoration: underline;
+  cursor: pointer;
+ /* &:visited{
+    color: $accentColor1Shadow;
+  }*/
+  &:hover, &:focus{
+    color: $accentColor1;
+  }
+}
+
+//BUTTONS
+button{
+  font-family: blackout-midnight;
+  color: black;
+}
+
+.btn{
+  text-transform: uppercase;
+  border-radius: 3px;
+  //font-size: 1.2em;
+}
+
+.btn-default{
+  background-color: $accentColor2;
+  border: none !important;
+  &:hover{
+    background-color: $accentColor1Shadow;
+  }
+}
+
+//FORMS
+.form-control{
+  background-color: #555;
+  border-color: #333;
+  color: white;
+  &:focus{
+    border-color: #777;
+  }
+}
+
+//RESPONSIVE BOOTSTRAP STUFF
+//adds col spacing when cols collapse
+@media (max-width: 991px) {
+  [class*="col-"]{
+      margin-bottom: 25px;
+  }
+}
+
+.row {
+  //margin: 15px 0px 15px 0px;
+  margin-bottom: 10px;
+}
+
+/*VIDEO WRAPPER to maintain aspect ratio */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
