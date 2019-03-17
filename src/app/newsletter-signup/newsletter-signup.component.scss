@@ -1,0 +1,49 @@
+@import '../css/colors';
+
+h2{
+  margin: 0 !important;
+}
+
+#mc_embed_signup form{
+  padding: 0 !important;
+}
+
+#mc_embed_signup .indicates-required{
+  text-align: left;
+  display: none; 
+}
+
+#mc-embedded-subscribe{
+  margin: 0 !important;
+}
+
+#mc_embed_signup div.response{
+  padding: 0;
+  margin: 0;
+  widows: 100% !important;
+}
+
+#mc_embed_signup div#mce-responses{
+  margin: 10px 0;
+  padding: 0;
+  color: $accentColor2;
+  font-size: 80%;
+  a{
+    display: block;
+  }
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error{
+  background-color: red !important;
+  padding: 0 !important;
+}
+
+.caption{
+  color: $accentColor2;
+  font-family: fira-regular;
+  font-size: 13px;
+  display: block;
+  padding: 5px 0px;
+  opacity: .8;
+  font-style: italic;
+}
