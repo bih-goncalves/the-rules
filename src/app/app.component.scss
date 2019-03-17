@@ -1,0 +1,99 @@
+/* IMPORTS */
+@import 'css/colors';
+@import 'css/fonts';
+@import 'css/breakpoints';
+
+//TOP NAV BAR
+.navbar{
+  background-color: rgba(0,0,0,.7);
+  text-transform: uppercase;
+  font-family: blackout-midnight;
+  margin:0;
+  z-index: 999;
+  margin-bottom: 0px;
+  width: 100%;
+  
+  &.home{
+    background-color: transparent;
+  }
+
+  @include breakpoint(sm){
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom: -50px;
+  }
+}
+
+.navbar-brand{
+  background-color: $accentColor1;
+  font-size: 2em;
+  color: $bgColor;
+}
+
+.navbar-brand:hover{
+  background-color: $accentColor1Shadow;
+  color: $bgColor;
+}
+
+.navbar-toggle{
+  background-color: $accentColor1;
+  .icon-bar{
+    background-color: black;
+  }
+}
+
+//NAV LINKS
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  color: $accentColor1;
+  font-size: 1.5em;
+ // border-radius: 4px;
+}
+nav a:focus {
+  color: black;
+}
+
+.nav > li > a:focus {
+  color: $accentColor1Shadow;
+}
+
+.nav > li{
+    margin: 0px;
+}
+
+nav a:hover {
+  color: $accentColor1Shadow;
+  background-color: transparent;
+}
+nav a.active {
+  //color: #039be5;
+}
+
+//ROUTER OUTLET
+#router-outlet{
+
+}
+
+//FOOTER
+$footerTextColor:#adadad;
+.panel-footer{
+  background-color: black;
+  font-family: fira-regular;
+  color: #555;
+  border-top: none;
+  margin-top: 2em;
+  padding: 1em 1em;
+  a{
+    color: #adadad;
+    display: block;
+    text-decoration: none;
+    line-height: 2;
+    &:hover, &:focus{
+      color: $accentColor1;
+    }
+  }
+}
