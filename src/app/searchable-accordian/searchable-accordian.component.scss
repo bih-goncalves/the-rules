@@ -1,0 +1,71 @@
+/* IMPORTS */
+@import '../css/colors';
+@import '../css/fonts';
+
+.searchbar{
+  margin-bottom: 20px;
+}
+
+.panel{
+ /* h2{
+    font-family: fira-semibold;
+    color:$textHighlightColor;
+    margin:0;
+    font-size: 28px;
+  }*/
+}
+
+.panel-default{
+  border-color: #555;
+  a{
+    text-decoration: none !important;
+  }
+}
+
+.panel-heading{
+  background-color: #333;
+  border-color: #555;
+  color: $accentColor1;
+  font-family: fira-semibold;
+  margin:0;
+  font-size: 28px;
+  &.open{
+     color: $accentColor1 !important;
+  }
+}
+
+//panel style when collapsed
+.collapsed .panel-heading {
+  color:$textColor;
+}
+
+.panel-body{
+  color: $textHighlightColor;
+  background-color: rgba(0,0,0,.9);
+  font-family: fira-book;
+  font-size: 18px;
+  a{
+    color: $accentColor1;
+  }
+}
+
+.in{
+  height: auto !important;
+}
+
+a{
+    color: $accentColor1;
+  }
+
+br{
+    display: block;
+    margin: 10px 0;
+    content: " ";
+    font-size: 24%;
+}
+
+br:before {
+  display: block;
+  margin-top: 10px;
+  content: "";
+}

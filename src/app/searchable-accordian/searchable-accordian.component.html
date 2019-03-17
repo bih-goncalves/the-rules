@@ -1,0 +1,46 @@
+<app-banner [imgSrc]="'assets/images/IMG_9348.jpg'" [title]="title"></app-banner>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <!--<h2>{{title}}</h2>-->
+    </div>
+    <div class="col-md-12">
+        <input
+          type="text" class="form-control input-lg searchbar"
+          placeholder="Search for..."
+          [(ngModel)]="searchTerm"
+          (keyup)="onChange($event)">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel-group" id="accordion">
+
+        <div
+          class="panel panel-default"
+          *ngFor="let question of filteredResults; let i = index">
+
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{i}}" class="collapsed">
+            <div class="panel-heading" [ngClass]="{'open': i == 0 && !panelClicked }" (click)="onPanelClick(i)">
+                <!--<a data-toggle="collapse" data-parent="#accordion" href="#collapse{{i}}">-->
+                  {{question.questionTxt}}
+                <!--</a>-->
+            </div>
+          </a>
+
+         <!-- <div  id="collapse{{i}}" class="panel-collapse collapse"
+                [ngClass]="{'in': filteredResults.length == 1 }"> -->
+              <div  id="collapse{{i}}" class="panel-collapse collapse"
+                [ngClass]="{'in': i == 0 }"
+              >
+            <div class="panel-body" [innerHTML]="question.answerTxt"></div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
