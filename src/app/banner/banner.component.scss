@@ -1,0 +1,36 @@
+@import '../css/breakpoints';
+
+.banner{
+ /* background-image: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,0)), url(/assets/images/join-the-movement.jpg);*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-attachment: fixed;
+  height: 150px;
+  position: relative;
+  margin-bottom: 30px;
+
+  @include breakpoint(sm){
+    height: 330px;
+  }
+}
+
+.container{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+h1{
+  font-size: 30px;
+  margin-top: 36px;
+  text-shadow: 2px 2px 8px #000000;
+  text-align: right;
+  color: white;
+
+  @include breakpoint(sm){
+    font-size: 60px;
+  }
+}
