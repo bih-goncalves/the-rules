@@ -1,0 +1,15 @@
+<div class="video-container"
+  (click)="close()"
+  [ngClass]="{'open': isOpen}">
+
+  <a (click)="close()" [ngClass]="{'open': isOpen}">
+    ×
+  </a>
+
+  <iframe class="video" id="ytPlayer" width="100%" height="100%"
+    [src]="url"
+    [ngClass]="{'open': isOpen}"
+    frameborder="0" allowfullscreen>
+  </iframe>
+
+</div>
