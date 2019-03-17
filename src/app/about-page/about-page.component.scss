@@ -1,0 +1,86 @@
+@import '../css/breakpoints';
+
+.badges{
+  text-align: center;
+  font-family: fira-regular;
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+ // padding: 2vw;
+  //margin-top: -10px;
+  padding: 0 !important;
+  height:auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  //max-height: 300px;
+
+
+  .tr-badge{
+    transition: .5s all;
+    opacity: .7;
+   // height: 100%;
+    cursor: pointer; cursor: hand;
+    padding: 2vw;
+    border-radius: 10px;
+    flex: 1;
+    margin-bottom: 0 !important;
+    background-color: rgba(0,0,0,.3);
+
+    //position: absolute;
+    //border: 1px solid grey;
+
+    &:hover{
+      text-decoration: underline;
+      opacity: .9;
+    }
+
+    $maxsize: 150px;
+    img{
+      height: auto;
+      width: 100%;
+      max-height: $maxsize;
+      max-width: $maxsize;
+    }
+
+    h1, h3{
+      font-size: 15px;
+      @include breakpoint(sm) {
+        /* Styles */
+        font-size: 20px;
+      }
+    }
+  }
+
+  .active{
+    opacity: 1;
+    text-decoration: underline;
+    background-color: rgba(255,255,255,.1);
+    color: white;
+  }
+}
+
+.animate-open {
+-webkit-animation-name: cssAnimation;
+-webkit-animation-duration:3s;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-timing-function: ease;
+-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes cssAnimation {
+from {
+-webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(100px);
+}
+to {
+-webkit-transform: rotate(0deg) scale(2) skew(0deg) translate(100px);
+}
+}
+
+.badge-text{
+  background-color: rgba(255,255,255,.9);
+  //margin-top: -20px;
+  padding: 20px;
+  p{
+    color: rgba(0,0,0,.9);
+  }
+}
