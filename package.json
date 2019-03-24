@@ -24,6 +24,7 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "^7.2.9",
+    "@fortawesome/fontawesome-free": "^5.8.1",
     "@ngx-share/button": "^7.1.2",
     "@ngx-share/buttons": "^7.1.2",
     "@ngx-share/core": "^7.1.2",

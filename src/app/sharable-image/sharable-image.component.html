@@ -2,10 +2,19 @@
     <a href="{{url}}" title="{{title}}" target="_blank"><img src="{{url}}" alt="{{title}}" width="100%" height="auto"></a>
   
     <div class="share">
-      Share this: 
+      Share this:
       <span>
-        <!-- <share-buttons [url]=url [description]=description [image]=url [tags]=tags size=-2></share-buttons> -->
-        <!--<share-button button="facebook" theme="circles-dark" [url]=url [description]="description" [title]="title"></share-button>
+        <a class="button share-button" href="https://www.facebook.com/sharer/sharer.php?u={{url}}" target="_blank">
+          <i class="fab fa-facebook-square" style="color:#3b5998;"></i>
+        </a>
+        <a  class="button share-button" href="http://twitter.com/share?url={{url}}&text={{title}}" target="_blank">
+          <i class="fab fa-twitter-square" style="color:#38A1F3"></i>
+        </a>
+        <a  class="button share-button" href="https://pinterest.com/pin/create/button/?url={{url}}&media={{url}}" target="_blank">
+          <i class="fab fa-pinterest-square" style="color:#BD081C"></i>
+        </a>
+        <!--<share-buttons [url]=url [description]=description [image]=url [tags]=tags size=-2></share-buttons>
+        <share-button button="facebook" theme="circles-dark" [url]=url [description]="description" [title]="title"></share-button>
         <share-button button="twitter" theme="circles-dark" [url]=url></share-button>
         <share-button button="pinterest" theme="circles-dark" [url]=url></share-button>-->
       </span>
