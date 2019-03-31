@@ -42,8 +42,8 @@ import { SharableImageComponent } from './sharable-image/sharable-image.componen
     HttpModule,
     AppRoutingModule,
     RouterModule,
-    ShareModule,
-    HttpClientModule
+    HttpClientModule,
+    ShareModule
   ],
   providers: [],
   bootstrap: [AppComponent]

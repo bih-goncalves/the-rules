@@ -1,8 +1,14 @@
 .sharable-image{
-    background-color: rgba(0,0,0,.5);
-    border: 2px solid rgba(255,255,255,.2);
-  }
-  
-  .share{
-    padding: .5em 1em;
-  }
+  background-color: rgba(0,0,0,.5);
+  border: 2px solid rgba(255,255,255,.2);
+}
+
+.share{
+  padding: .5em 1em;
+}
+
+.share-button{
+  margin-left: .5em;
+  font-size: 1.8em;
+  background-color: transparent;
+}

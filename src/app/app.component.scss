@@ -29,11 +29,13 @@
   background-color: $accentColor1;
   font-size: 2em;
   color: $bgColor;
+  text-decoration: none;
 }
 
 .navbar-brand:hover{
   background-color: $accentColor1Shadow;
   color: $bgColor;
+  text-decoration: none;
 }
 
 .navbar-toggle{
@@ -43,18 +45,16 @@
   }
 }
 
+
 //NAV LINKS
-nav a {
-  padding: 5px 10px;
+.nav > li > a {
+  padding: 15px 15px;
   text-decoration: none;
   display: inline-block;
   background-color: transparent;
   color: $accentColor1;
   font-size: 1.5em;
  // border-radius: 4px;
-}
-nav a:focus {
-  color: black;
 }
 
 .nav > li > a:focus {
@@ -65,11 +65,11 @@ nav a:focus {
     margin: 0px;
 }
 
-nav a:hover {
+.nav >li > a:hover {
   color: $accentColor1Shadow;
   background-color: transparent;
 }
-nav a.active {
+nav >li > a.active {
   //color: #039be5;
 }
 
