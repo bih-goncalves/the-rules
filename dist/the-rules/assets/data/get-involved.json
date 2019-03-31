@@ -1,0 +1,26 @@
+
+{
+  "questions":
+  [
+    {
+      "questionTxt":"Become a culture hacker with The Rules newsletter",
+      "answerTxt":"Sign up to receive The Rules newsletter and every week you'll receive a short email from us giving you our perspective on what's shaping the world in mainstream culture and current affairs, keeping you updated on what's happening in the Culture Hack Lab and letting you know of opportunities to get involved. If you don't like it, we welcome honest feedback or you can unsubscribe with one click.<br><a href='http://eepurl.com/VdmKr' target='_blank'>Sign me up!</a>"
+    },
+    {
+      "questionTxt":"Connect with us",
+      "answerTxt":"<ul><li>Write an email: <a href='mailto:contact@therules.org'>contact@therules.org</a></li><li>Subscribe to our <a href='http://eepurl.com/VdmKr' target='_blank'>newsletter</a></li><li>Comment on a <a href='http://blog.therules.org' target='_blank'>blog</a> post</li><li>Leave a comment on the <a href='https://www.facebook.com/therules.org' target='_blank'>Facebook page</a></li><li>Tweet us: <a href='http://twitter.com/therulesorg' target='_blank'>@TheRulesOrg</a></li><li>Check out <a href='http://instagram.com/therulesorg' target='_blank'>@therulesorg</a> on Instagram</li><li>Subscribe to our channel on <a href='https://www.youtube.com/channel/UCYEvIS6p5TYyghDj3ErodSw' target='_blank'>Youtube</a></li><li>Find TR on <a href='http://t.me/therules' target='_blank'>Telegram</a></li><li>Send us post: The Rules, 13223 Black Mountain Road, Suite 394, San Diego CA 92129, USA</li></ul>"
+    },
+    {
+      "questionTxt":"Remix the ideas and content we share and create your own",
+      "answerTxt":"The best ideas manifest in collaboration and are constantly evolving. Everything on this site is registered under <a href='https://creativecommons.org/licenses/by-nc/4.0/' target='_blank'>Creative Commons Attribution-NonCommercial 4.0 International Licence</a>. Download, play, remix, and share. All we ask is that when you do so, you remember to share with us too."
+    },
+    {
+      "questionTxt":"Contribute your time and skills",
+      "answerTxt":"This global work is impossible without the collaboration of writers, technologists, artists and translators. If that is you, please email us: <a href='mailto:contact@therules.org' target='_blank'>contact@therules.org</a>. We can’t promise that there will be opportunities to get up to any mischief immediately, but knowing who you are now means we can get together when there is."
+    },
+    {
+      "questionTxt":"Donate",
+      "answerTxt":"We do not accept funding from governments, corporations or anyone who wants to compromise or control our work. We maintain our independence with funds from foundations and individuals dedicated to co-creating a post-capitalist world that works for all. If you would like to contribute financially to changing the rules, <a href='https://donatenow.networkforgood.org/therules' target='_blank'>visit our donation page</a>.<br><br>Don’t want to donate online? Email <a href='mailto:contact@therules.org' target='_blank'>contact@therules.org</a> and we’ll send you alternative options for donating by post."
+    }
+  ]
+}

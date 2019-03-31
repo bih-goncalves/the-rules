@@ -1,0 +1,50 @@
+
+{
+  "questions":
+  [
+    {
+      "questionTxt":"What is The Rules?",
+      "answerTxt":"The Rules is a global network of activists, organizers, designers, researchers, writers, coders and others dedicated to changing the rules that create inequality, poverty and climate change. <a href='#/about' routerLink='/about'>You can find out more here</a>"
+    },
+    {
+      "questionTxt":"Who are the people behind The Rules?",
+      "answerTxt":"We are a small team spread out across the world, who have come from a variety of backgrounds and skillsets to collaborate on a multi-year project to support the transition to a post-capitalist world. Our core team is spread across the globe in Mexico, Kenya, USA, UK, Costa Rica and South Africa."
+    },
+    {
+      "questionTxt":"What are the long-term campaign objectives of the The Rules?",
+      "answerTxt":"<ol><li><strong>We reframe narratives and amplify alternatives to the current system.</strong> We start from two core insights: Power rests on the ability to harness and control language; and humans make sense of their world through stories. Through our in-house think tank, the Culture Hack Lab, we combine big data analytics with cognitive linguistics, memetics, anthropology and social psychology to makes sense of and then intentionally engage in the narratives that support the global transition to a post-capitalist world. We create content, analysis and tools to help bring more radical ideas into the mainstream in ways that make them feel like common sense (e.g. post-growth economics, cooperative ownership structures, alternative currencies, universal basic income, regenerative agriculture).</li><li><strong>We generate connective tissue for the global justice movement.</strong> We work in service to the world’s social movements and civil society organizations to unite seemingly disparate struggles, to build capacity among these groups, and to deepen an international community of solidarity. Through our Activist Ashram, a year-long fellowship for frontline organizers, we convene activists from around the world to: (1) better understand the logic of the global economic operating system; (2) create shared language and tools; (3) and help contribute to the emergence of a new type of sacred activism.</li><li><strong>We offer prototypes for the future</strong> We recognize that our ability to overcome the current global system is dependent on the degree to which we can imagine and create alternatives, and to this end we create working open-source prototypes to shatter the illusion that “there is no alternative”. We have built a global network of issue-area experts and journalists, through our Alternative Narrative Network, to spread awareness of these prototypes and help expand the Overton Window, the realm of ideas that the public deems possible and acceptable. We have built-in a supernovae clause within the organizational design of TR to ensure we will only exist until 2023, at which point we will voluntarily disassemble in order to make way for new constellations, configurations and communities to emerge. We are distributing our knowledge and skill-sets among our expanding community of activists, journalist, issue-area experts, philanthropists, and others. By dissolving within a set timeline, TR also limits its vulnerability to the ways in which power elites have historically attempted to control civil society groups including delegitimization, infiltration, seduction, incentivization to ‘professionalize’ and other forms of destabilization. "
+    },
+    {
+      "questionTxt":"From where does The Rules get its funding?",
+      "answerTxt":"We receive financial support primarily from small to medium sized progressive philanthropic foundations and high-net worth individuals committed to a just transition, and some crowd-funding. Our institutional funders have included the KR Foundation, Bertha Foundation, Serena Foundation, Namaste Foundation and the Novo Foundation.  We do not accept money from governments or corporations.  We do not have any earned income streams (i.e. we do not charge our partners or comrades for the work we do)."
+    },
+    {
+      "questionTxt":"Some of your money comes from Foundations with links to big corporations? How is that independent?",
+      "answerTxt":"You’re right, you can trace some of our funding back to sources that are connected to corporate and financial activity. Every coin in our pocket and yours, if traced back far enough, has been churned through banks, governments, corporations and financial institutions. That’s the nature of the debt-based money system we live within. There is no such thing as completely “clean” money in that sense.<br><br>We have drawn the line at no direct links to or contributions from corporations and governments because we believe that that gives us enough distance from their influence to be able to speak and operate independently, including being able to mount full-throated criticisms of them, whilst still allowing us to use money. "
+    },
+    {
+      "questionTxt":"Is The Rules a NGO or a social movement?",
+      "answerTxt":"Both and neither. We have characteristics of both but do not consider ourselves to be a social movement. Although we have the status of a not-for-profit and adhere to the necessary requirements to operate, we are creating a new mode-of-action based on collective decision-making and shared values.<br><br>We work with and support existing social movements. We also are help build connective tissue between movements.<br><br>We recognise that we do not fit easily into existing issue siloes of human rights, anti-inequality or anti-poverty groups, and that there is added complexity to the type of intersectional work we do. However, we believe we can bring new models of organisational structure, movement building and cultural campaigning to the space, and as such, must necessarily be unlike previous organisations."
+    },
+    {
+      "questionTxt":"How do you choose who you work with?",
+      "answerTxt":"The Rules tries to work with people and social movements that share similar worldviews and values. Our focus is promoting post-capitalist alternatives, grounded in intrinsic values and visions for deeply diverse and sustainable global systems. We are one small part of a growing awareness of the need for radical, transformative systems change."
+    },
+    {
+      "questionTxt":"What kind of partners do you work with?",
+      "answerTxt":"The Rules works with grassroots activists, civil society groups and social movements to help unite disparate local, issue-based struggles around shared global perspectives. Our focus is on connecting dots across issues, geographies, crises, organisations and individuals in order to generate self-awareness and power amongst the broad post-capitalist movement."
+    },
+    {
+      "questionTxt":"I would like to support the work and/or volunteer, what should I do?",
+      "answerTxt":"Write to <a href='mailto:contact@therules.org' target='_blank'>contact@therules.org</a> . Mention any specific skill sets you’d like to volunteer. You can also find out more about how to <a href='#/get-involved'>get involved with The Rules’ work</a>, or <a href='http://eepurl.com/VdmKr' target='_blank'>sign up to receive the weekly newsletter for the most current opportunities</a>"
+    },
+    {
+      "questionTxt":"I really like your video/graphics/posters. Can I use them for our presentation/video/report etc?",
+      "answerTxt":"Yes. We’d love you to. Everything we produce is registered under <a href='https://creativecommons.org/licenses/by-nc/4.0/' target='_blank'>Creative Commons Attribution-NonCommercial 4.0 International Licence</a>, which means they are free to use by anyone. We would ask that you use things in context, where necessary and non-commercially. Ultimately, a key goal for us is to help spread radical memes, ideas and alternatives into the mainstream. We’re honoured when members of the community work with us in this way. "
+    },
+    {
+      "questionTxt":"Why is your minimum donation amount set at $10? Isn’t that too much?",
+      "answerTxt":"We realise that $10 is a large minimum contribution to ask for (and that we’re asking for it in US $) and we want to make the community as inclusive as possible. However we’ve found that it’s difficult to find a provider that a) makes it financially viable to ask for less than $10 (every system takes a cut) and b) that doesn’t require access to a bank account or debit/credit card. We are working on designing a solution that enables everyone to participate, but for now we’re stuck with what we’ve got: unless anyone in the community has a ready and waiting, wonderful solution."
+    }
+  ]
+}
